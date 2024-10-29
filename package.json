@@ -1,0 +1,26 @@
+{
+    "name": "library-management-system",
+    "version": "1.0.0",
+    "description": "Könyvtári könyvkezelő rendszer TypeScript-ben",
+    "main": "dist/index.js",
+    "scripts": {
+      "build": "tsc",
+      "start": "node dist/index.js",
+      "dev": "ts-node src/index.ts",
+      "watch": "tsc -w",
+      "clean": "rm -rf dist",
+      "lint": "eslint src/**/*.ts"
+    },
+    "keywords": ["typescript", "library", "management", "system", "oop"],
+    "author": "Lőczi Bence",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+      "@types/node": "^18.0.0",
+      "typescript": "^5.0.0",
+      "ts-node": "^10.0.0",
+      "eslint": "^8.0.0",
+      "@typescript-eslint/eslint-plugin": "^5.0.0",
+      "@typescript-eslint/parser": "^5.0.0"
+    }
+  }
